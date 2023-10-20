@@ -3,7 +3,7 @@ node {
          checkout scm
      }
      stage('Build image') {
-         app = docker.build("TigerPlace/flask-example")
+         app = docker.build("TigherPlace/flask-example")
          
      }
      stage('Push image') {
